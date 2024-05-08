@@ -1,0 +1,45 @@
+.formulaire{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.tete{
+    color: bisque;
+    background-color: black;
+    text-align: center;
+}
+.tout{
+    background-image: url(demipp.jpg);
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xxx-large;
+    text-decoration: underline;
+}
+caption{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+}
+.img{
+    object-fit: cover;
+    float: left;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+.img:hover{
+    transform: scale(1.2);
+}
+input{
+    transition: transform 0.3s ease;
+}
+input:hover{
+    transform: scale(1.2);
+}
+select{
+    transition: transform 0.3s ease;
+}
+select:hover{
+    transform: scale(1.2);
+}
+

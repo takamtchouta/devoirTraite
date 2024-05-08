@@ -1,0 +1,56 @@
+.font{
+    background-image: url(store.jpg);
+}
+header{
+    background-color: white;
+}
+.table1{
+    object-fit: cover;
+    width: 100%;
+    background-color: red;
+}
+.table2{
+    width: 80%;
+}
+caption{
+    font-size: xx-large;
+    text-decoration: underline;
+}
+th{
+    font-size: xx-large;
+}
+img{
+    transition: 0.3s ease;
+}
+img:hover{
+    transform: scale(1.2);
+}
+input{
+    transform: scale(3);
+}
+input{
+    transition: 0.3s ease;
+}
+input:hover{
+    transform: scale(3);
+}
+body{
+    color: brown;
+}
+td{
+    text-align: center;
+    transition: 0.3s ease;
+}
+td:hover{
+    transform: scale(1.3);
+}
+footer{
+    background-color: blanchedalmond;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.page3{
+    background-image: url(logo.jpg);
+}
